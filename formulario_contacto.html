@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formulario de Contacto</title>
+    <link rel="shortcut icon" href="img/LookTotal.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/stylefmc.css">
+</head>
+
+<body>
+    
+    <div id="contenedor-carga">
+        <div id="carga"></div>
+    </div>
+
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="formulario_contacto.html">Contacto</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Look a tu medida</h1>
+            <h2>Tu Estilo a un solo clic</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+
+<main>
+    
+    <form action="https://formsubmit.co/ae6ac91567eb5e5d1512bf92b7e7f687" method="POST">
+    <div class="contenedor">
+        <h2>Contacto</h2>
+        <div class="row100">
+            <div class="col">
+                <div class="caja-input">
+                    <input type="text" name="nombre" required="required">
+                    <span class="texto">Nombre</span>
+                    <span class="linea"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="caja-input">
+                    <input type="text" name="apellido" required="required">
+                    <span class="texto">Apellido</span>
+                    <span class="linea"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row100">
+            <div class="col">
+                <div class="caja-input">
+                    <input type="text" name="correo" required="required">
+                    <span class="texto">Correo</span>
+                    <span class="linea"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="caja-input">
+                    <input type="text" name="telefono" required="required">
+                    <span class="texto">Telefono</span>
+                    <span class="linea"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row100">
+            <div class="col">
+                <div class="caja-input textarea">
+                    <textarea required="required" name="mensaje"></textarea>
+                    <span class="texto">Mensaje</span>
+                    <span class="linea"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row100">
+            <div class="col">
+                <input type="submit" value="Enviar">
+            </div>
+        </div>        
+    </div>
+    </form>
+
+
+
+        
+        <!-- Seccion de redes sociales-->
+        <div class="contenedor-img">
+            <div class="content-img">
+            <h4><a href="https://www.facebook.com/"><img src="img/Facebook.png"
+            width="45" height="45" title="Facebook"></a>
+            <a href="https://web.whatsapp.com/"><img src="img/Whatsapp.png"
+            width="45" height="45" title="Youtube"></a>
+            <a href="https://www.instagram.com/"><img src="img/Instagram.png"
+            width="45" height="45" title="Instagram"></a></h4>
+        
+            <p>Redes</p>
+    
+            </div>
+        </div>
+            
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>+57 3213461519</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>looktotal@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p>Colombia/Villeta-Cundinamarca</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Look Total</h2>
+    </footer>
+</body>
+
+<script>
+     // Funcion cerrar carga
+    
+     window.onload = function (){
+        var contenedor = document.getElementById('contenedor-carga');
+        contenedor.style.visibility = 'hidden'
+        contenedor.style.opacity = '0';
+    }
+</script>
+
+</html>
